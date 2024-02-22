@@ -96,28 +96,28 @@ public class GameLogic implements PlayableLogic {
         newBoard[1][5] = a_pawn_12;
 
         //setting the attacker pawns of the right corner
-        newBoard[3][10] = a_pawn_8;
+        newBoard[3][10] = a_pawn_20;
         newBoard[4][10] = a_pawn_21;
         newBoard[5][10] = a_pawn_22;
         newBoard[6][10] = a_pawn_23;
-        newBoard[7][10] = a_pawn_18;
+        newBoard[7][10] = a_pawn_24;
         newBoard[5][9] = a_pawn_19;
 
         //setting the attacker pawns of the bottom corner
-        newBoard[10][3] = a_pawn_20;
+        newBoard[10][3] = a_pawn_8;
         newBoard[10][4] = a_pawn_10;
         newBoard[10][5] = a_pawn_14;
         newBoard[10][6] = a_pawn_16;
-        newBoard[10][7] = a_pawn_24;
+        newBoard[10][7] = a_pawn_18;
         newBoard[9][5] = a_pawn_13;
 
         //setting the defender pawns and king
-        newBoard[3][5] = d_pawn_1;
+        newBoard[3][5] = d_pawn_5;
         newBoard[4][4] = d_pawn_2;
-        newBoard[4][5] = d_pawn_3;
+        newBoard[5][4] = d_pawn_3;
         newBoard[4][6] = d_pawn_10;
-        newBoard[5][3] = d_pawn_5;
-        newBoard[5][4] = d_pawn_6;
+        newBoard[5][3] = d_pawn_1;
+        newBoard[4][5] = d_pawn_6;
         newBoard[5][5] = d_king_7;
         newBoard[5][6] = d_pawn_11;
         newBoard[5][7] = d_pawn_13;
